@@ -29,6 +29,15 @@ body {
   padding-bottom: 5px;
 }
 
+#showcase {
+  width: 600px;
+  margin: 100px auto;
+}
+
+#showcase > p {
+  margin-bottom: 18px;
+}
+
 h1 {
   font-family: 'Helvetica Neue', inherit;
   font-weight: 500;

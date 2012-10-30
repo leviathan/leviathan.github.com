@@ -68,6 +68,17 @@ h2 {
 
 h2 p { margin: 0; padding: 0; margin-left: -4px;}
 
+#caption {
+  font-family: "Dancing Script", "Snell Roundhand", "Cochin", "Georgia";
+  font-weight: 500;
+  font-size: 250%;
+  margin-left: -4px;
+  letter-spacing: -1px;
+  line-height: 0.91em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 #container > p {
   margin-bottom: 18px;
 }

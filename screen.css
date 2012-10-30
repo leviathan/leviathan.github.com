@@ -53,6 +53,21 @@ h1 p { margin: 0; padding: 0; margin-left: -4px;}
 h1 p:first-child { padding-left: 4px; }
 h1 .dot { font-family: 'Gill Sans', inherit; font-size: 130%; padding-left: 1px; }
 
+h2 {
+  font-family: 'Helvetica Neue', inherit;
+  font-weight: 300;
+  font-size: 150%;
+  letter-spacing: -1px;
+  line-height: 0.91em;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 4px;
+  border-bottom: 3px solid #8DB530;
+  margin-bottom: 10px;
+}
+
+h2 p { margin: 0; padding: 0; margin-left: -4px;}
+
 #container > p {
   margin-bottom: 18px;
 }
@@ -60,6 +75,11 @@ h1 .dot { font-family: 'Gill Sans', inherit; font-size: 130%; padding-left: 1px;
 .make-things {
   font-family: "Dancing Script", "Snell Roundhand", "Cochin", "Georgia";
   font-size: 135%;
+}
+
+.period {
+  color: #909090;
+  font-size: 75%;
 }
 
 h4 {

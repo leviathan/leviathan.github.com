@@ -75,5 +75,25 @@
         </div>
     </div>
 </div>
+
+<!-- YUNIT snipplet -->
+<script type="text/javascript">
+(function(d, s, r) {
+    d = document.documentElement;
+    window.__yunit = window.__yunit || {};
+    __yunit.html = d.outerHTML || d.innerHTML;
+    s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//tracking.yunit.org/javascripts/recorder.min.js';
+    s.setAttribute('data-recorder', '1');
+    s.setAttribute('data-account-id', 'leviathan');
+    s.setAttribute('data-storage-url', 'tracking.yunit.org/recorder');
+    r = document.getElementsByTagName('script')[0];
+    r.parentNode.insertBefore(s, r);
+}());
+</script>
+<!-- YUNIT snipplet -->
+
 </body>
 </html>
